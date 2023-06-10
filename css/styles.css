@@ -69,6 +69,7 @@
     bottom: 30px;
     right: 30px;
     font-family: gffLatinBold, 'Open Sans';
+    z-index: 100;
 }
 
 .message_floating_my_site .message_floating_my_site__topbar{
