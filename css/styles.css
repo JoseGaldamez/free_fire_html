@@ -345,3 +345,188 @@ footer{
     opacity: 0;
     transition: .6s;
 }
+
+.section_table .container {
+    max-width: 960px;
+    width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+  }
+
+  .section_table .tab-content > .active {
+    display: block;
+  }
+
+  .fade {
+    transition: opacity .15s linear;
+  }
+
+  .section_table .teams-outer-container .teams-competition {
+    border-width: 2px;
+    border-image: linear-gradient(to bottom, transparent, #CA0835, transparent) 1 100%;
+  }
+
+  .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+  }
+
+  .teams-outer-container .ladder-page {
+    padding: 0px;
+  }
+
+  .ladder-page {
+    margin-bottom: 50px;
+  }
+
+  .ladder-page .ladder-lbl {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #C3C3C3;
+    border-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid transparent;
+  }
+
+  .ladder-page .ladder-item {
+    height: 90px;
+    border-bottom: 0.5px solid rgba(195,195,195,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid transparent;
+  }
+
+  .ladder-page .pos-size {
+    text-align: center;
+    width: 30px;
+    margin-right: 20px;
+    padding: 0 25px;
+  }
+
+  .teams-outer-container .ladder-page .team-img-size {
+    width: 20%;
+  }
+
+  .teams-outer-container .ladder-page .ladder-item img {
+    width: 70px;
+    height: auto;
+    max-width: 80px;
+  }
+
+  .ladder-page .team-img-size {
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .teams-outer-container.full-width .ladder-page .team-name-size span {
+    max-width: 100%;
+  }
+
+  .teams-outer-container .ladder-page .team-name-size {
+    width: 50%;
+  }
+
+  .ladder-page .team-name-size {
+    flex-grow: 1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 10px;
+    font-weight: bold;
+  }
+
+  .teams-outer-container .ladder-page .ladder-item span {
+    font-size: 1.1em;
+  }
+
+  .ladder-page .ladder-item span {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  ladder-page .stat-size {
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .teams-outer-container .ladder-page .ladder-lbl span {
+    font-size: 1.1em;
+  }
+
+  .ladder-page .ladder-lbl span {
+    font-size: 11px;
+    letter-spacing: 0.25px;
+    color: #353744;
+    font-weight: normal;
+  }
+
+  .ladder-page .pos-size {
+    text-align: center;
+    width: 30px;
+    margin-right: 20px;
+    padding: 0 25px;
+  }
+
+  body, button, input, select, optgroup, textarea, span {
+    color: #404040;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .teams-outer-container .ladder-page .ladder-lbl span {
+    font-size: 1.1em;
+  }
+
+  .ladder-page .ladder-lbl span {
+    font-size: 11px;
+    letter-spacing: 0.25px;
+    color: #353744;
+    font-weight: normal;
+  }
+
+  .ladder-page .stat-size {
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .teams-outer-container .ladder-page .ladder-lbl span {
+    font-size: 1.1em;
+  }
+
+  .ladder-page .ladder-lbl span {
+    font-size: 11px;
+    letter-spacing: 0.25px;
+    color: #353744;
+    font-weight: normal;
+  }
+
+  .ladder-page .stat-size {
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+  .section_table__title{
+    text-align: center;
+    margin: 100px auto;
+  }
+
+  .section_table__title h2{
+    font-size: 3rem;
+  }
