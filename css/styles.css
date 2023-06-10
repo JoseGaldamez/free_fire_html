@@ -126,7 +126,7 @@
 .second_section{
      background: linear-gradient(rgb(248, 248, 248), rgb(189, 183, 183));
      width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .second_section svg{
@@ -218,6 +218,18 @@
     box-shadow: 0px 0px 15px 0px rgb(255, 187, 0);
 }
 
+
+.section_guns{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -25px;
+}
+
+.section_chosse_your_gun{
+    width: 100%;
+}
+
 footer{
     background-color: rgb(27, 24, 24);
     height: 400px;
@@ -239,4 +251,97 @@ footer{
 
 .footer_right img{
     width: 80%;
+}
+
+.section.trapezoid[data-v-428bb24e] {
+    -webkit-clip-path: polygon(0 0,45.5% 0,calc(45.5% + 1.5rem) 1.5rem,100% 1.5rem,100% 100%,0 100%);
+    clip-path: polygon(0 0,45.5% 0,calc(45.5% + 1.5rem) 1.5rem,100% 1.5rem,100% 100%,0 100%);
+}
+
+.section[data-v-428bb24e] {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-color: var(--bg-color-white);
+}
+
+.home-about-inner[data-v-4e0ea0e4] {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: all .3s;
+    padding-bottom: 52.5%;
+}
+
+.inactive.left[data-v-4e0ea0e4] {
+    cursor: url(https://dl.dir.freefiremobile.com/common/web_event/official2/dist/client/img/cursor_1_right.c26d829.svg) 42 40,default;
+}
+
+.home-about-left[data-v-4e0ea0e4] {
+    right: 50.25%;
+    transform: translateX(8%);
+    -webkit-clip-path: polygon(0 0,100% 0,85% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,85% 100%,0 100%);
+}
+
+.home-about-left[data-v-4e0ea0e4], .home-about-right[data-v-4e0ea0e4] {
+    position: absolute;
+    top: 0;
+    width: 94.5%;
+    height: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.inactive.right[data-v-4e0ea0e4] {
+    cursor: url(https://dl.dir.freefiremobile.com/common/web_event/official2/dist/client/img/cursor_1_left.f00c099.svg) 42 40,default;
+}
+
+.home-about-right[data-v-4e0ea0e4] {
+    left: 50.25%;
+    transform: translateX(-8%);
+    -webkit-clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
+    clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
+}
+
+.home-about-left[data-v-4e0ea0e4], .home-about-right[data-v-4e0ea0e4] {
+    position: absolute;
+    top: 0;
+    width: 94.5%;
+    height: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.about-cover.cover[data-v-4e0ea0e4] {
+    border: 0;
+    transition: all .3s ease;
+}
+
+.about-cover[data-v-4e0ea0e4] {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    transition: .3s;
+}
+
+.lazy-image-active {
+    opacity: 1;
+}
+
+.swiper-cover.active[data-v-4e0ea0e4] {
+    opacity: 1;
+}
+
+.swiper-cover[data-v-4e0ea0e4] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .6s;
 }
